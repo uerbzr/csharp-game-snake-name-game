@@ -100,7 +100,7 @@ namespace workshop._2dNameGame
             _platformTexture.SetData(new[] { Color.White });
 
             _letterTextures = new Dictionary<char, Texture2D>();
-            foreach (char letter in "NIGELAB")
+            foreach (char letter in "NIGEL")
             {
                 _letterTextures[letter] = CreateTextureFromString(letter.ToString());
             }
